@@ -1,0 +1,323 @@
+    1  gcc
+    2  sudo apt install gcc
+    3  perl
+    4  gcc
+    5  perl
+    6  sudo apt-get install perl
+    7  make
+    8  sudo apt install make
+    9  git clone https://github.com/yerseg/suricata.git
+   10  sudo apt install git
+   11  git clone https://github.com/yerseg/suricata.git
+   12  cd suricata/
+   13  git clone https://github.com/OISF/libhtp.git
+   14  sudo su
+   15  cargo
+   16  sudo apt  install cargo
+   17  cbindgen
+   18  sudo apt install cbindgen
+   19  git clone https://github.com/yerseg/s7comm_investigation.git
+   20  ls
+   21  cd build/
+   22  cd unix/
+   23  make -f x86_64_linux.mk 
+   24  cd ..
+   25  cd bin
+   26  cd x86_64-linux/
+   27  sudo cp libsnap7.so /usr/lib
+   28  sudo ldconfig
+   29  sudo python3 client.py 
+   30  sudo pip install --upgrade suricata-update
+   31  sudo apt install python3-pip
+   32  sudo pip install --upgrade suricata-update
+   33  sudo pip3 install python-snap7
+   34  python3 server.py 
+   35  sudo python3 server.py 
+   36  ./autogen.sh 
+   37  suricata-update
+   38  make
+   39  git status
+   40  git add libhtp/ src/app-layer-s7comm.c
+   41  git add src/app-layer-s7comm.h
+   42  git status
+   43  git add src/detect-s7comm-s7commbuf.c src/detect-s7comm-s7commbuf.h src/output-json-s7comm.c src/output-json-s7comm.h src/s7comma-master/ src/tests/detect-s7comm-s7commbuf.c\
+   44  git add src/detect-s7comm-s7commbuf.c src/detect-s7comm-s7commbuf.h src/output-json-s7comm.c src/output-json-s7comm.h src/s7comma-master/ src/tests/detect-s7comm-s7commbuf.c
+   45  git status
+   46  git add libhtp src/Makefile.am src/app-layer-detect-proto.c
+   47  git add libhtp/*
+   48  git status
+   49  git restore --staged libhtp
+   50  git status
+   51  git add src/app-layer-parser.c src/app-layer-protos.c src/app-layer-protos.h src/detect-engine-register.c src/detect-engine-register.h src/output.c src/suricata-common.h src/util-profiling.c suricata.yaml.in
+   52  git status
+   53  git commit -m "template for future dev"
+   54  git config --global user.email "cergei.kazmin@gmail.com"
+   55  git status
+   56  git commit -m "template for future dev"
+   57  git push -u origin yerseg/s7comm_investigation
+   58  git status
+   59  git add src/detect-s7comm-s7commbuf.c
+   60  git status
+   61  git add src/detect-s7comm-s7commbuf.c
+   62  git status
+   63  git commit -m "new regex - for function"
+   64  git push
+   65  touch test.c
+   66  gedit test.c
+   67  make x86_64_linux.mk
+   68  make
+   69  make -f x86_64_linux.mk all
+   70  cd ..
+   71  cd bin
+   72  ls
+   73  cd x86_64-linux/
+   74  ls
+   75  sudo cp libsnap7.so /usr/lib
+   76  ls /usr/lib
+   77  pip 
+   78  pip install snap7-python
+   79  sudo gedit suricata.rules 
+   80  gcc
+   81  gcc --help
+   82  gcc test.c -o test
+   83  ./test 
+   84  gcc test.c -o test
+   85  ./test 
+   86  gcc test.c -o test
+   87  ./test 
+   88  gcc test.c -o test
+   89  gcc test.c -lpcre -o test
+   90  ./test 
+   91  gcc test.c -lpcre -o test
+   92  ./test 
+   93  gcc test.c -lpcre -o test
+   94  ./test 
+   95  gcc test.c -lpcre -o test
+   96  ./test 
+   97  gcc test.c -lpcre -o test
+   98  ./test 
+   99  gcc test.c -lpcre -o test
+  100  ./test 
+  101  gcc test.c -lpcre -o test
+  102  ./test 
+  103  gcc test.c -lpcre -o test
+  104  ./test 
+  105  gcc test.c -lpcre -o test
+  106  ./test 
+  107  gcc test.c -lpcre -o test
+  108  ./test 
+  109  gcc test.c -lpcre -o test
+  110  ./test 
+  111  gcc test.c -lpcre -o test
+  112  ./test 
+  113  gcc test.c -lpcre -o test
+  114  ./test 
+  115  gcc test.c -lpcre -o test
+  116  ./test 
+  117  gcc test.c -lpcre -o test
+  118  ./test 
+  119  gcc test.c -lpcre -o test
+  120  ./test 
+  121  gcc test.c -lpcre -o test
+  122  ./test 
+  123  gcc test.c -lpcre -o test
+  124  ./test 
+  125  git status
+  126  git add src/detect-s7comm-s7commbuf.h
+  127  git add src/detect-s7comm-s7commbuf.c
+  128  git status
+  129  git commit -m "new upd"
+  130  git push
+  131  git status
+  132  git add src/detect-s7comm-s7commbuf.c
+  133  git commit -m "regex upd"
+  134  git push
+  135  gedit test.c 
+  136  sudo cp suricata.yaml /etc/suricata
+  137  cd /etc/suricata
+  138  sudo gedit suricata.yaml 
+  139  cd /var/log/suricata/
+  140  ls
+  141  gedit suricata.log 
+  142  ls
+  143  gedit stats.log 
+  144  ls files/
+  145  ls files/ -all
+  146  cd fils
+  147  cd files
+  148  ls -all
+  149  cd ..
+  150  ls
+  151  gedit eve.json 
+  152  cat eve.json | grep alert
+  153  cat eve.json | grep "\"event_type\":\"alert\""
+  154  rm eve.json 
+  155  ls
+  156  rm eve.json 
+  157  sudo rm eve.json 
+  158  ls\
+  159  ls
+  160  cat eve.json | grep "\"event_type\":\"alert\""
+  161  sudo python3 client.py 
+  162  sudo gedit suricata.yaml 
+  163  sudo suricata-update
+  164  python3 server.py 
+  165  sudo python3 server.py 
+  166  mkdir rules
+  167  sudo mkdir rules
+  168  cd ./rules
+  169  touch suricata.rules
+  170  sudo touch suricata.rules
+  171  sudo touch suricata.rules
+  172  sudo gedit suricata.rules
+  173  sudo make
+  174  sudo make install
+  175  sudo suricata --build-info
+  176  sudo systemctl status suricata
+  177  sudo gedit /etc/suricata/suricata.yaml
+  178  sudo suricata-update
+  179  sudo suricata -c /etc/suricata/suricata.yaml -i wlan0
+  180  sudo mkdir /var/log/suricata
+  181  sudo mkdir /etc/suricata
+  182  sudo cp classification.config /etc/suricata
+  183  sudo cp reference.config /etc/suricata
+  184  sudo cp ./suricata.yaml /etc/suricata
+  185  sudo cp ./reference.config /etc/suricata
+  186  sudo cp ./classification.config /etc/suricata
+  187  sudo suricata -c /etc/suricata/suricata.yaml -i wlan0
+  188  sudo make install-full
+  189  sudo suricata-update
+  190  sudo make install-full
+  191  ip a
+  192  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  193  sudo gedit /etc/suricata/rules/suricata.rules
+  194  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  195  sudo ifconfig lo mtu 1522
+  196  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  197  make & akme install
+  198  make & make install
+  199  make
+  200  sudo make & nake install
+  201  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  202  sudo make & make install
+  203  sudo make
+  204  sudo make install
+  205  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  206  sudo make
+  207  sudo make install
+  208  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  209  sudo make
+  210  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  211  sudo make
+  212  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  213  sudo make install
+  214  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  215  sudo make
+  216  sudo make install
+  217  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  218  sudo make
+  219  sudo make install
+  220  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  221  sudo make
+  222  sudo make install
+  223  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  224  sudo make
+  225  sudo make install
+  226  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  227  sudo make
+  228  sudo make install
+  229  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  230  sudo make install
+  231  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  232  sudo make install
+  233  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  234  sudo make install
+  235  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  236  sudo make install
+  237  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  238  sudo make install
+  239  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  240  sudo make install
+  241  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  242  sudo make install
+  243  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  244  sudo make install
+  245  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  246  sudo make install
+  247  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  248  sudo make install
+  249  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  250  sudo make install
+  251  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  252  sudo make install
+  253  sudo
+  254  sudo make install
+  255  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  256  sudo make install
+  257  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  258  sudo make install
+  259  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  260  sudo make install
+  261  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  262  sudo make install
+  263  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  264  sudo make install
+  265  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  266  sudo make install
+  267  sudo suricata -c /etc/suricata/suricata.yaml -i lo
+  268  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  269  ip a
+  270  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=true
+  271  sudo suricata -c /etc/suricata/suricata.yaml -i enp0s3 --set capture.disable-offloading=true
+  272  ping yandex.ru
+  273  sudo suricata -c /etc/suricata/suricata.yaml -i enp0s3 --set capture.disable-offloading=true
+  274  sudo suricata -c /etc/suricata/suricata.yaml -i enp0s3
+  275  sudo make install
+  276  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  277  sudo make install
+  278  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  279  sudo make install
+  280  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  281  sudo make install
+  282  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  283  sudo make install
+  284  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  285  sudo make install
+  286  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  287  sudo make install
+  288  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  289  sudo make install
+  290  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  291  sudo make install
+  292  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  293  sudo make install
+  294  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  295  sudo make install
+  296  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  297  sudo make install
+  298  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  299  sudo make install
+  300  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  301  cd suricata/
+  302  history
+  303  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  304  sudo make install
+  305  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  306  sudo make install
+  307  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  308  sudo make install
+  309  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  310  sudo make install
+  311  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  312  clear
+  313  sudo make install
+  314  clear
+  315  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  316  clear
+  317  sudo suricata -c /etc/suricata/suricata.yaml -i lo --set capture.disable-offloading=false
+  318  git status
+  319  git add src/app-layer-s7comm.c
+  320  git add src/detect-s7comm-s7commbuf.c
+  321  git commit -m "impl of match func"
+  322  git push
+  323  history > ~/help.txt
