@@ -25,6 +25,7 @@ Firstly, download packages and configure project, then build suricata
 1. `sudo make && sudo make install && sudo make install-conf`
 1. `sudo cp suricata.yaml /etc/suricata`
 1. `sudo suricata-update -D /etc/suricata`
+1. `sudo ifconfig lo mtu 1522`
 
 After each edits in .c and .h src files run `sudo make install`
 
@@ -47,4 +48,4 @@ Our test rule
 `alert tcp 127.0.0.1 any -> 127.0.0.100 any (s7comm: function 4;)`
 
 #### How to check Suricata alerts?
-`sudo cat /var/log/suricata/eve.json `
+`sudo cat /var/log/suricata/eve.json | grep "\"event_type\":\"s7comm\""`
